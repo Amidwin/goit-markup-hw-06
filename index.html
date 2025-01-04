@@ -55,19 +55,34 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" data-menu-close>Close</button>
+          <nav>Navigation</nav>
+          <address>Address</address>
+          <ul>
+            <li>Soc link</li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <main>
       <!-- =================Hero================= -->
-      <section class="hero hero-section">
+      <section class="hero hero-section hidden">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button">Order Service</button>
         </div>
       </section>
       <!-- =================Services================= -->
-      <section class="services">
+      <section class="services hidden">
         <div class="container">
           <h2 class="services-main visually-hidden">Our Services</h2>
           <ul class="services-title">
@@ -123,7 +138,7 @@
         </div>
       </section>
       <!-- =================Team================= -->
-      <section class="team">
+      <section class="team hidden">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-title-main">
@@ -299,7 +314,7 @@
         </div>
       </section>
       <!-- =================Portfolio================= -->
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="portfolio-main">Our Portfolio</h2>
           <ul class="portfolio-style">
@@ -428,7 +443,7 @@
       </section>
     </main>
     <!-- =================Footer================= -->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="footer-container container">
         <div class="footer-logo-wrap">
           <a
@@ -498,7 +513,7 @@
       </div>
     </footer>
     <!-- =================Modal================= -->
-    <div class="backdrop">
+    <div class="backdrop hidden">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-icon-btn" width="8" height="8">
@@ -589,5 +604,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/mobile.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
