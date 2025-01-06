@@ -524,6 +524,8 @@ img {
 }
 
 .team-style-main {
+    
+    width: 100%;
     border-radius: 0 0 4px 4px;
     width: 264px;
     background-color: #ffffff;
@@ -550,12 +552,6 @@ img {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 64px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .team-style-main-img {
-        height: 300px;
     }
 }
 
